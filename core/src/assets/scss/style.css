@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.login-page {
+  padding-top: 4.2rem;
+  padding-bottom: 4.2rem;
+  background: rgba(209, 232, 255, 0.76); }
+  .login-page .myform {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 500px; }
+    .login-page .myform h1,
+    .login-page .myform h2,
+    .login-page .myform h3 {
+      font-family: "Kaushan Script", cursive; }
+    .login-page .myform a {
+      text-decoration: none !important; }
+    .login-page .myform .tx-tfm {
+      text-transform: uppercase; }
+    .login-page .myform .mybtn {
+      border-radius: 50px; }
+    .login-page .myform .google {
+      color: #666;
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      outline: none;
+      border: 1px solid lightgrey; }
+    .login-page .myform .login-or {
+      position: relative;
+      color: #aaa;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .login-page .myform .login-or .span-or {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -2px;
+        margin-left: -25px;
+        background-color: #fff;
+        width: 50px;
+        text-align: center; }
+      .login-page .myform .login-or .hr-or {
+        height: 1px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important; }
+
+/*# sourceMappingURL=style.css.map */
